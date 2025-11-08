@@ -69,8 +69,7 @@ const translations = {
       title: 'Berita, Galeri, & Kontak',
       desc: 'Ikuti kabar terbaru atau hubungi kami.',
       news: 'Berita/Blog',
-      newsDesc: 'Artikel kegiatan dan laporan.
-',
+      newsDesc: 'Artikel kegiatan dan laporan.',
       gallery: 'Galeri',
       galleryDesc: 'Dokumentasi foto & video program.',
       view: 'Lihat Selengkapnya',

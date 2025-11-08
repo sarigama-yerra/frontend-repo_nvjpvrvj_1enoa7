@@ -1,4 +1,4 @@
-import { ShieldCheck, HeartHandshake, FileSpreadsheet, CreditCard, Newspaper, Images } from 'lucide-react';
+import { ShieldCheck, Heart, FileSpreadsheet, CreditCard, Newspaper, Image } from 'lucide-react';
 
 function Section({ id, title, children, description }) {
   return (
@@ -53,7 +53,7 @@ export function About({ t }) {
 
 export function Programs({ t }) {
   const items = [
-    { icon: HeartHandshake, title: t.programs.food, desc: t.programs.foodDesc },
+    { icon: Heart, title: t.programs.food, desc: t.programs.foodDesc },
     { icon: ShieldCheck, title: t.programs.orphan, desc: t.programs.orphanDesc },
     { icon: Newspaper, title: t.programs.education, desc: t.programs.educationDesc },
   ];
@@ -172,7 +172,7 @@ export function Extras({ t }) {
           <a href="#" className="mt-3 inline-block text-sm font-medium text-emerald-700 hover:text-emerald-800">{t.extras.view}</a>
         </div>
         <div className="rounded-xl border border-neutral-200 p-5 bg-white shadow-sm">
-          <Images className="w-6 h-6 text-emerald-600" aria-hidden />
+          <Image className="w-6 h-6 text-emerald-600" aria-hidden />
           <h3 className="mt-3 font-semibold text-neutral-900">{t.extras.gallery}</h3>
           <p className="mt-1 text-sm text-neutral-700">{t.extras.galleryDesc}</p>
           <a href="#" className="mt-3 inline-block text-sm font-medium text-emerald-700 hover:text-emerald-800">{t.extras.view}</a>
