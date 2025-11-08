@@ -1,0 +1,103 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 253 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.7.224:3000/
+2:18:02 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:72:46: ERROR: Unterminated string literal
+2:18:03 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:72:46: ERROR: Unterminated string literal
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:72:46
+  
+  Unterminated string literal
+  70 |        desc: 'Ikuti kabar terbaru atau hubungi kami.',
+  71 |        news: 'Berita/Blog',
+  72 |        newsDesc: 'Artikel kegiatan dan laporan.
+     |                                                ^
+  73 |  ',
+  74 |        gallery: 'Galeri',
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2:18:03 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:72:46: ERROR: Unterminated string literal
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:72:46
+  
+  Unterminated string literal
+  70 |        desc: 'Ikuti kabar terbaru atau hubungi kami.',
+  71 |        news: 'Berita/Blog',
+  72 |        newsDesc: 'Artikel kegiatan dan laporan.
+     |                                                ^
+  73 |  ',
+  74 |        gallery: 'Galeri',
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2:18:07 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:72:46: ERROR: Unterminated string literal
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:72:46
+  
+  Unterminated string literal
+  70 |        desc: 'Ikuti kabar terbaru atau hubungi kami.',
+  71 |        news: 'Berita/Blog',
+  72 |        newsDesc: 'Artikel kegiatan dan laporan.
+     |                                                ^
+  73 |  ',
+  74 |        gallery: 'Galeri',
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2:18:07 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:72:46: ERROR: Unterminated string literal
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:72:46
+  
+  Unterminated string literal
+  70 |        desc: 'Ikuti kabar terbaru atau hubungi kami.',
+  71 |        news: 'Berita/Blog',
+  72 |        newsDesc: 'Artikel kegiatan dan laporan.
+     |                                                ^
+  73 |  ',
+  74 |        gallery: 'Galeri',
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
